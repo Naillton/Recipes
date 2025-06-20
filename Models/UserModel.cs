@@ -21,6 +21,8 @@ public class UserModel
     [MaxLength(20, ErrorMessage = "A senha deve conter ate 20 caracteres")]
     public string Senha { get; set;  } = string.Empty;
 
+    public List<RecipesModel> Receitas { get; set; } = new List<RecipesModel>();
+
     [JsonIgnore]
     public bool IsAdmin { get; private set; } = false;
 }
