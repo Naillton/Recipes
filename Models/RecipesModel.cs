@@ -1,6 +1,5 @@
 namespace Recipes.Models;
 using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
 
 public class RecipesModel
 {
