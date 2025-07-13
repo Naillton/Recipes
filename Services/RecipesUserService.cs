@@ -17,15 +17,15 @@ public class RecipesUserService : IRecipesUserInterface
         return Task.FromResult(_users);
     }
 
-    public Task<bool> CreateUserAsync(UserModel user)
+    public Task<UserModel> CreateUserAsync(UserModel user)
     {
         if (_users.Any(u => u.Email == user.Email))
         {
-            return Task.FromResult(false);
+            return Task.FromResult(new UserModel());
         }
 
         _users.Add(user);
-        return Task.FromResult(true);
+        return Task.FromResult(user);
     }
 
     public Task<UserModel?> UpdateUserAsync(UserModel user)
