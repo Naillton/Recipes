@@ -2,7 +2,7 @@ namespace Recipes.Interfaces;
 
 using Recipes.Models;
 
-public interface IRecipesModelInterface
+public interface IRecipesInterface
 {
     Task<RecipesModel?> GetRecipeByIdAsync(Guid id);
     Task<List<RecipesModel>> GetAllRecipesAsync();

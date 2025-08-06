@@ -37,7 +37,7 @@ public class RecipesUserController : ControllerBase
         }
     }
 
-    [HttpGet("lists")]
+    [HttpGet("users")]
     public async Task<ActionResult<List<UserModel>>> GetAllUsers()
     {
         try
@@ -73,8 +73,8 @@ public class RecipesUserController : ControllerBase
             {
                 return BadRequest("User with this email already exists.");
             }
-
-            return Ok(result);
+            
+            return CreatedAtAction(nameof(GetUserById), new { id = result.Id }, result);
         }
         catch (Exception ex)
         {
