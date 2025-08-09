@@ -3,7 +3,7 @@ namespace Recipes.Services;
 using Recipes.Interfaces;
 using Recipes.Models;
 
-public class RecipesModelService : IRecipesModelInterface
+public class RecipesModelService : IRecipesInterface
 {
     private readonly List<RecipesModel> _recipes = new List<RecipesModel>();
 

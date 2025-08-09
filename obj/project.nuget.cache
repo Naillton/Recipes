@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YRYudYtAZqg=",
+  "dgSpecHash": "3kfi/RajPyo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\FG Tecnomania\\c#\\Recipes\\Recipes.csproj",
+  "projectFilePath": "C:\\Users\\FG Tecnomania\\Recipes\\Recipes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FG Tecnomania\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.14\\microsoft.aspnetcore.openapi.8.0.14.nupkg.sha512",
     "C:\\Users\\FG Tecnomania\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

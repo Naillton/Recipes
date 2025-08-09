@@ -487,11 +487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FG Tecnomania\\c#\\Recipes\\Recipes.csproj",
+      "projectUniqueName": "C:\\Users\\FG Tecnomania\\Recipes\\Recipes.csproj",
       "projectName": "Recipes",
-      "projectPath": "C:\\Users\\FG Tecnomania\\c#\\Recipes\\Recipes.csproj",
+      "projectPath": "C:\\Users\\FG Tecnomania\\Recipes\\Recipes.csproj",
       "packagesPath": "C:\\Users\\FG Tecnomania\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FG Tecnomania\\c#\\Recipes\\obj\\",
+      "outputPath": "C:\\Users\\FG Tecnomania\\Recipes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FG Tecnomania\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -551,7 +551,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 
 public class UserModel
 {
-    public Guid Id { get; private set; } = new Guid();
+    public Guid Id { get; private set; } = Guid.NewGuid();
 
     [Required(ErrorMessage = "Nome obrigatorio")]
     [StringLength(100, ErrorMessage = "Nome deve ter no maximo 100 caracteres")]

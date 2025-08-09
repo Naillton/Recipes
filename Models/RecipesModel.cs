@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 public class RecipesModel
 {
-    public Guid Id { get; private set; } = new Guid();
+    public Guid Id { get; private set; } = Guid.NewGuid();
 
     [Required(ErrorMessage = "A receita precisa ter um titulo")]
     [StringLength(100, ErrorMessage = "O titulo deve ter no maximo 100 caracteres")]
