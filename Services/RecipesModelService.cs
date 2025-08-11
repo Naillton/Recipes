@@ -42,6 +42,7 @@ public class RecipesModelService : IRecipesInterface
         existingRecipe.Titulo = recipe.Titulo;
         existingRecipe.descricao = recipe.descricao;
         existingRecipe.Comentarios = recipe.Comentarios;
+        existingRecipe.userId = recipe.userId;
         return Task.FromResult<RecipesModel?>(existingRecipe);
     }
 

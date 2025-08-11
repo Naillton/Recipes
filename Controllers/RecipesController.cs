@@ -64,7 +64,8 @@ public class RecipesController : ControllerBase
             var RecipeModel = new RecipesModel
             {
                 Titulo = recipe.Titulo,
-                descricao = recipe.Descricao
+                descricao = recipe.Descricao,
+                userId = recipe.userId
             };
 
             var created = await _recipeService.CreateRecipeAsync(RecipeModel);

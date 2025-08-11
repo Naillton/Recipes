@@ -15,5 +15,7 @@ public class RecipesModel
     [MinLength(50, ErrorMessage = "A descricao da mreceita precisa ter no minimo 50 caracteres")]
     public string descricao { get; set; } = string.Empty;
 
+    public Guid userId { get; set; } = Guid.Empty;
+
     public List<Comentario> Comentarios { get; set; } = new List<Comentario>();
 }

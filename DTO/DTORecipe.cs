@@ -13,4 +13,8 @@ public class RecipeInsertDto
     [MinLength(100, ErrorMessage = "A descricao deve conter pelo menos 8 caracteres")]
     [MaxLength(200, ErrorMessage = "A descricao deve conter ate 20 caracteres")]
     public string Descricao { get; set;  } = string.Empty;
+
+    public Guid userId { get; set; } = Guid.Empty;
+    
+    public string ID { get; set; } = string.Empty;
 }
